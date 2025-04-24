@@ -126,8 +126,8 @@ h6 {
 }
 
 .banner {
-	background: #f9b454;
-	background: linear-gradient(to left, #ffc260, #fba34b);
+	background: #ffaf60;
+	/* background: linear-gradient(to left, #ffaf60, #ffaf80); */
 	padding: 100px 0px;
 	position: relative;
 }

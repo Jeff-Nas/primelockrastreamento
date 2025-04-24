@@ -9,11 +9,11 @@ body {
 }
 
 a {
-	color: #5f0099;
+	color: #fc8a04;
 }
 
 a:hover {
-	color: #5f0099;
+	color: #fc8a04;
 }
 
 h1,
@@ -53,7 +53,7 @@ h6 {
 }
 
 .navbar .active {
-	color: #5f0099 !important;
+	color: #fc8a04 !important;
 }
 
 .navbar .navbar-brand {}
@@ -71,7 +71,7 @@ h6 {
 }
 
 .navbar .nav-item a:hover {
-	color: #5f0099;
+	color: #fc8a04;
 }
 
 .navbar .nav-link {
@@ -126,8 +126,8 @@ h6 {
 }
 
 .banner {
-	background: #fcad3d;
-	background: linear-gradient(to left, #ffc260, #fc9d2a);
+	background: #f9b454;
+	background: linear-gradient(to left, #ffc260, #ffa83d);
 	padding: 100px 0px;
 	position: relative;
 }
@@ -150,6 +150,10 @@ h6 {
 
 .banner a:hover {
 	text-decoration: none;
+}
+
+.image-app:hover {
+	scale: 1.05;
 }
 
 .svg-wave {
@@ -598,7 +602,7 @@ input {
 @media all and (max-width:991px) {
 	.navbar .navbar-collapse {
 		overflow: auto;
-		background: rgb(213, 198, 221);
+		background: #fcc982;
 		color: #fff !important;
 		text-align: center;
 		padding: 10px 0;

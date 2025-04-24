@@ -259,9 +259,9 @@ h6 {
 }
 
 .about-btn {
-	color: #8e1efc;
+	color: #f6965b;
 	padding: 10px 40px;
-	border: 2px solid #8e1efc;
+	border: 2px solid #f6965b;
 	border-radius: 7px;
 	margin-top: 30px;
 	display: inline-block;
@@ -269,7 +269,7 @@ h6 {
 }
 
 .about-btn:hover {
-	background: #8e1efc;
+	background: #f6965b;
 	color: #ffffff;
 	text-decoration: none;
 }
@@ -388,15 +388,15 @@ h6 {
 }
 
 .team-detail h4 {
-	color: rgb(142, 30, 252);
+	color: #fc8a04;
 	margin-top: 20px;
 	font-size: 17px;
 	margin-bottom: 0px;
 }
 
 .testimonial {
-	background: #7a60ff;
-	background: linear-gradient(to left, #7a60ff, #cd9ffa);
+	background: #fcc982;
+	background: linear-gradient(to left, #fcbd82, #f6965b);
 	padding: 100px 0px;
 	position: relative;
 }
@@ -490,7 +490,7 @@ h6 {
 }
 
 #contact_form .form-input {
-	border: 1px solid #e4e4e4;
+	background: #fcc982;
 }
 
 input {
@@ -523,19 +523,20 @@ input {
 .btn-grad {
 	padding: .7rem 2rem;
 	display: inline-block;
-	color: #fff;
+	color: rgb(255, 255, 255);
 	border-radius: 2rem;
 	border: 0;
-	background: #7a60ff;
-	background: linear-gradient(to left, #7a60ff, #cd9ffa);
+	background: #fcc982;
+	background: linear-gradient(to left, #ffc982, #ffc992);
 	cursor: pointer;
+	font-weight: 600;
 }
 
 .contact-info {
 	padding: 2rem 2rem 1rem;
 	border-radius: 8px;
-	background: #7a60ff;
-	background: linear-gradient(to left, #7a60ff, #cd9ffa);
+	background: #fcc982;
+	background: linear-gradient(to left, #ffcb9a, #f7b185);
 }
 
 .contact-item {
@@ -552,8 +553,8 @@ input {
 }
 
 .download {
-	background: #7a60ff;
-	background: linear-gradient(to left, #7a60ff, #cd9ffa);
+	background: #fcc982;
+	background: linear-gradient(to left, #ffcb9a, #f7b185);
 	padding: 100px 0px;
 	position: relative;
 }

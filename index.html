@@ -6,6 +6,7 @@
   <title>Applight Template By W3 Template</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
   <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/float.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
     integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css" />
@@ -67,10 +68,15 @@
     </div>
     <span class="svg-wave"> <img class="svg-hero" src="images/applight-wave.svg"> </span>
   </section>
+  <a href="https://wa.me/558592158588" class="whatsapp-float" target="_blank" rel="noopener">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp" />
+  </a>
+
+
 
   <!-------Banner End------->
 
-  <!-------About start------->
+  <!-------Sobre start------->
 
   <section class="about section-padding prelative" data-scroll-index='1'>
     <div class="container">
@@ -85,30 +91,29 @@
           <div class="section-content text-center">
             <div class="row">
               <div class="col-md-4">
-                <div class="icon-box wow fadeInUp" data-wow-delay="0.2s"> <i class="fa fa-life-ring"
+                <div class="icon-box wow fadeInUp" data-wow-delay="0.2s"> <i class="fa fa-map-marker-alt"
                     aria-hidden="true"></i>
-                  <h5>Support</h5>
-                  <p>Phasellus lobortis justo a magna facilisis, in commodo tellus rutrum. Sed vitae condimentum nulla.
+                  <h5>Rastreamento</h5>
+                  <p>Rastreamento em tempo real diretamente por aplicativo.
                   </p>
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="icon-box wow fadeInUp" data-wow-delay="0.4s"> <i class="fa fa-mobile"
-                    aria-hidden="true"></i>
-                  <h5>Cross Platform</h5>
-                  <p>Phasellus lobortis justo a magna facilisis, in commodo tellus rutrum. Sed vitae condimentum nulla.
+                <div class="icon-box wow fadeInUp" data-wow-delay="0.4s"> <i class="fa fa-lock" aria-hidden="true"></i>
+                  <h5>Bloqueio</h5>
+                  <p>Bloqueie seu veículo com apenas um click.
                   </p>
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="icon-box wow fadeInUp" data-wow-delay="0.6s"> <i class="fa fa-bolt" aria-hidden="true"></i>
-                  <h5>Fast</h5>
-                  <p>Phasellus lobortis justo a magna facilisis, in commodo tellus rutrum. Sed vitae condimentum nulla.
+                <div class="icon-box wow fadeInUp" data-wow-delay="0.6s"> <i class="fa fa-clock" aria-hidden="true"></i>
+                  <h5>24h</h5>
+                  <p>Assistência 24h.
                   </p>
                 </div>
               </div>
             </div>
-            <a href="#" class="about-btn">Learn More</a>
+            <a href="#" class="about-btn">Página apcional</a>
           </div>
         </div>
       </div>
@@ -174,9 +179,10 @@
                   <div class="media-right icon-border"> <span class="fa fa-wifi" aria-hidden="true"></span> </div>
                 </div>
               </div>
-              <div class="col-md-4 d-none d-md-block d-lg-block">
-                <div class="feature-mobile"> <img src="images/iphone-screen-with-shadow.png"
-                    class="img-fluid wow fadeInUp" /> </div>
+              <div class="col-md-4 d-none d-md-block d-lg-block" id="image-funcionalidades">
+                <div class="feature-mobile"> <img src="images/image-slider.png" class="img-fluid wow fadeInUp"
+                    id="image-float-effect" />
+                </div>
               </div>
               <div class="col-md-4 col-sm-12">
                 <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
@@ -229,23 +235,23 @@
           <div class="section-content text-center">
             <div class="row">
               <div class="col-md-4">
-                <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="images/user1.jpg"
+                <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="images/central_multimidia.jpg"
                     class="img-fluid" />
-                  <h4>Nitu Singh</h4>
+                  <h4>Central multimídia</h4>
                   <p>Marketing Specialist</p>
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="team-detail wow bounce" data-wow-delay="0.4s"> <img src="images/user2.jpg"
+                <div class="team-detail wow bounce" data-wow-delay="0.4s"> <img src="images/acessorios.jpg"
                     class="img-fluid" />
-                  <h4>Yogesh Singh</h4>
+                  <h4>Acessórios</h4>
                   <p>CEO & Founder</p>
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="team-detail wow bounce" data-wow-delay="0.6s"> <img src="images/user3.jpg"
+                <div class="team-detail wow bounce" data-wow-delay="0.6s"> <img src="images/rastreamento.jpg"
                     class="img-fluid" />
-                  <h4>Nisha Sharma</h4>
+                  <h4>Rastreamento</h4>
                   <p>Web Developer</p>
                 </div>
               </div>
@@ -275,20 +281,21 @@
               <div class="offset-md-2 col-md-8 col-sm-12">
                 <div class="slider">
                   <div class="slider-item">
-                    <div class="test-img"><img src="images/user1.jpg" alt="Placeholder" width="157" height="157"></div>
-                    <div class="test-text"><span class="title"><span>John Michal</span> Digital Designer</span>
+                    <div class="test-img"><img src="images/joaquim.jpg" alt="Placeholder" width="157" height="157">
+                    </div>
+                    <div class="test-text"><span class="title"><span>Joaquim Neto</span>Empreendedor</span>
                       Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                       aliquam eratvo lutpat.</div>
                   </div>
                   <div class="slider-item">
-                    <div class="test-img"><img src="images/user3.jpg" alt="Placeholder" width="157" height="157"></div>
-                    <div class="test-text"><span class="title"><span>Steve Smith</span> App User</span> Euismod
+                    <div class="test-img"><img src="images/user1.jpg" alt="Placeholder" width="157" height="157"></div>
+                    <div class="test-text"><span class="title"><span>Stella Smiths</span> App User</span> Euismod
                       tincidunt ut laoreet dolore magna aliquam eratvo lutpat. Ut wisi enim ad minim veniam, quis
                       nostrud v</div>
                   </div>
                   <div class="slider-item">
-                    <div class="test-img"><img src="images/user3.jpg" alt="Placeholder" width="157" height="157"></div>
-                    <div class="test-text"><span class="title"><span>Gordon Shaw</span> Blogger</span> Consectetuer
+                    <div class="test-img"><img src="images/user4.jpg" alt="Placeholder" width="157" height="157"></div>
+                    <div class="test-text"><span class="title"><span>Pedro Henrique</span> Advogado</span> Consectetuer
                       adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratvo
                       lutpat. Ut wisi enim ad minim veniam, quis nostrud v</div>
                   </div>
@@ -382,20 +389,20 @@
                   </div>
                   <input type="text" id="subject" class="form-input w-100" name="subject" placeholder="Subject">
                   <textarea class="form-input w-100" id="message" placeholder="Message" name="message"></textarea>
-                  <button class="btn-grad w-100 text-uppercase" type="submit" name="button">submit</button>
+                  <button class="btn-grad w-100 text-uppercase" type="submit" name="button">Enviar</button>
                 </form>
               </div>
               <div class="col-sm-12 col-md-12 col-lg-4">
                 <div class="contact-info white">
                   <div class="contact-item media"> <i class="fa fa-map-marker-alt media-left media-right-margin"></i>
                     <div class="media-body">
-                      <p class="text-uppercase">Address</p>
-                      <p class="text-uppercase">New Delhi, India</p>
+                      <p class="text-uppercase">Endereço</p>
+                      <p class="text-uppercase">fortaleza, Brasil</p>
                     </div>
                   </div>
                   <div class="contact-item media"> <i class="fa fa-mobile media-left media-right-margin"></i>
                     <div class="media-body">
-                      <p class="text-uppercase">Phone</p>
+                      <p class="text-uppercase">Telefone</p>
                       <p class="text-uppercase"><a class="text-white" href="tel:+15173977100">009900990099</a> </p>
                     </div>
                   </div>
@@ -408,8 +415,8 @@
                   </div>
                   <div class="contact-item media"> <i class="fa fa-clock media-left media-right-margin"></i>
                     <div class="media-body">
-                      <p class="text-uppercase">Working Hours</p>
-                      <p class="text-uppercase">Mon-Fri 9.00 AM to 5.00PM.</p>
+                      <p class="text-uppercase">Horário de funcionamento</p>
+                      <p class="text-uppercase">Seg-Sex 08:00 às 16:00.</p>
                     </div>
                   </div>
                 </div>
